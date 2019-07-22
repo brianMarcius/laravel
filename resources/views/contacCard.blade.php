@@ -8,7 +8,7 @@
                     <h3 class="modal-title"></h3>
                 </div>
                 {{ csrf_field() }} {{ method_field('POST') }}
-
+{{ halo }}
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-7"> 
